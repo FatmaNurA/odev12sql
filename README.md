@@ -5,7 +5,6 @@ SELECT COUNT(*) FROM film
 WHERE lenght >
 ( 
   SELECT AVG (length) FROM film
- 
 );
 ### film tablosunda en yüksek rental_rate değerine sahip kaç tane film vardır?
 SELECT COUNT(*) FROM film
